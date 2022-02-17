@@ -11,7 +11,7 @@ from datetime import datetime
 
 # -- Path setup --------------------------------------------------------------
 THIS = os.path.abspath(".")
-sys.path.append(os.path.join(THIS, "../../lib/python-squirro"))
+#sys.path.append(os.path.join(THIS, "../../lib/python-squirro"))
 
 # -- Project information -----------------------------------------------------
 
@@ -28,13 +28,13 @@ release = "3.2.0"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx_js",
-    "sphinx_material",
-    "sphinxcontrib.mermaid",
-    "sphinxemoji.sphinxemoji",
-]
+#extensions = [
+#    "sphinx.ext.autodoc",
+#    "sphinx_js",
+#    "sphinx_material",
+#    "sphinxcontrib.mermaid",
+#    "sphinxemoji.sphinxemoji",
+#]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -45,8 +45,8 @@ templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # JavaScript source
-js_source_path = "../../integration"
-jsdoc_config_path = "../../integration/jsdoc.json"
+#js_source_path = "../../integration"
+#jsdoc_config_path = "../../integration/jsdoc.json"
 
 # respect member order of automatically documented source code
 autodoc_member_order = "bysource"
