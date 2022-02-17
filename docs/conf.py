@@ -36,7 +36,7 @@ release = "3.2.0"
 #    "sphinxemoji.sphinxemoji",
 #]
 
-# Add any paths that contain templates here, relative to this directory.
+# Add any paths that contain here, relative to this directory.
 templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
@@ -89,7 +89,7 @@ mermaid_version = "8.8.0"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-html_extra_path = ["storybook-static"]
+html_extra_path = {"storybook": "storybook-static/index.html"}
 
 # Custom theming for Squirro
 html_logo = "_static/images/logo2.png"
