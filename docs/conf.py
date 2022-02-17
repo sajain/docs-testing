@@ -56,15 +56,15 @@ autodoc_member_order = "bysource"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_material"
-html_theme_options = {
-    # Set the color and the accent color
-    "color_primary": "#E55100",
-    "color_accent": "#353535",
-    "globaltoc_depth": -1,
-    "globaltoc_collapse": True,
-    "globaltoc_includehidden": True,
-}
+#html_theme = "sphinx_material"
+#html_theme_options = {
+#    # Set the color and the accent color
+#    "color_primary": "#E55100",
+#    "color_accent": "#353535",
+#    "globaltoc_depth": -1,
+#    "globaltoc_collapse": True,
+#    "globaltoc_includehidden": True,
+#}
 
 html_show_sphinx = False
 html_copy_source = False
